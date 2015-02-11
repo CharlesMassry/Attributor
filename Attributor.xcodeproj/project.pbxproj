@@ -81,8 +81,6 @@
 		3544DB6E1A8A3296009154E9 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				3544DB731A8A3296009154E9 /* AppDelegate.h */,
-				3544DB741A8A3296009154E9 /* AppDelegate.m */,
 				3544DB761A8A3296009154E9 /* ViewController.h */,
 				3544DB771A8A3296009154E9 /* ViewController.m */,
 				3544DB791A8A3296009154E9 /* Main.storyboard */,
@@ -96,6 +94,8 @@
 		3544DB6F1A8A3296009154E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3544DB731A8A3296009154E9 /* AppDelegate.h */,
+				3544DB741A8A3296009154E9 /* AppDelegate.m */,
 				3544DB701A8A3296009154E9 /* Info.plist */,
 				3544DB711A8A3296009154E9 /* main.m */,
 			);
@@ -412,6 +412,7 @@
 				3544DB911A8A3296009154E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3544DB921A8A3296009154E9 /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				3544DB941A8A3296009154E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

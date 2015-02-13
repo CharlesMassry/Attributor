@@ -14,6 +14,7 @@
 		3544DB7D1A8A3296009154E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3544DB7C1A8A3296009154E9 /* Images.xcassets */; };
 		3544DB801A8A3296009154E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3544DB7E1A8A3296009154E9 /* LaunchScreen.xib */; };
 		3544DB8C1A8A3296009154E9 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544DB8B1A8A3296009154E9 /* AttributorTests.m */; };
+		356FE6431A8D7F6100549E11 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356FE6421A8D7F6100549E11 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3544DB851A8A3296009154E9 /* AttributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3544DB8A1A8A3296009154E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3544DB8B1A8A3296009154E9 /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		356FE6411A8D7F6100549E11 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextStatsViewController.h; path = ../TextStatsViewController.h; sourceTree = "<group>"; };
+		356FE6421A8D7F6100549E11 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextStatsViewController.m; path = ../TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		3544DB6E1A8A3296009154E9 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
+				356FE6411A8D7F6100549E11 /* TextStatsViewController.h */,
+				356FE6421A8D7F6100549E11 /* TextStatsViewController.m */,
 				3544DB761A8A3296009154E9 /* ViewController.h */,
 				3544DB771A8A3296009154E9 /* ViewController.m */,
 				3544DB791A8A3296009154E9 /* Main.storyboard */,
@@ -222,6 +227,7 @@
 				3544DB781A8A3296009154E9 /* ViewController.m in Sources */,
 				3544DB751A8A3296009154E9 /* AppDelegate.m in Sources */,
 				3544DB721A8A3296009154E9 /* main.m in Sources */,
+				356FE6431A8D7F6100549E11 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
